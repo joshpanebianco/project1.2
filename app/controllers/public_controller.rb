@@ -1,6 +1,7 @@
 class PublicController < ApplicationController
 
-	def index 
+	def index
+		@communities = Community.all.limit(5)
 	end
 
 end
