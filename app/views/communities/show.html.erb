@@ -2,7 +2,7 @@
 
 <%= @community.name %>
 
-<% @post.each do |post| %>
+<% @posts.each do |post| %>
   <h4><%= link_to post.title, community_post_path(@community, post) %></h4>
 	<p><%= truncate post.body, length: 200 %></p>
 <% end %>
