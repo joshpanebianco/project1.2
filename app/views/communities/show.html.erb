@@ -4,11 +4,11 @@
 
 <div class="row">
 	<div class="col-sm-8">
-    <%= render partial: "post/list", locals: { posts: @posts } %>
+    <%= render partial: "posts/list", locals: { posts: @posts } %>
   </div>
 	<div class="col-sm-4">
 		<div class="card">
-			
+
 		</div>
 		<p><%= pluralize @subscriber_count, "member" %></p>
 		<small>
