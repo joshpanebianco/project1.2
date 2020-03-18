@@ -9,6 +9,7 @@ class PostsController < ApplicationController
 	 end
 
 	 def show
+     @comment = Comment.new
 	 end
 
 	 def new
@@ -32,7 +33,7 @@ class PostsController < ApplicationController
 	 private
 
 	 def set_post
-		 @posts = Post.find(params[:id])
+		 @posts = Post.includes(:comments)find(params[:id])
 	 end
 
    def auth_subscriber
