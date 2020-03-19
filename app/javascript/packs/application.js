@@ -27,3 +27,5 @@ import "regenerator-runtime/runtime";
 // require('./channels')
 
 require('bootstrap')
+
+require('../includes/vote.js')
