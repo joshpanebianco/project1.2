@@ -1,0 +1,22 @@
+.card-community {
+	width: 60%;
+}
+
+.bg-light {
+	height: 100vh;
+}
+
+.tnav {
+	background-color: #9b59b6;
+	/* background-color: #e570e7; */
+	/* background-color: #6c5ce7; */
+}
+
+#logo a {
+	color: #fff;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.form-group {
+	width: 60%;
+}

@@ -8,7 +8,8 @@ class Account < ApplicationRecord
   has_many :comments
   has_many :votes
 
-  validates_presence_of :first_name, :last_name
+  # validates_presence_of :first_name, :last_name
+  validates_presence_of :email, :password, :password_confirmation
 
   def full_name
      "#{first_name} #{last_name}"

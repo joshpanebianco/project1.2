@@ -3,16 +3,13 @@ class CommentsController < ApplicationController
    @comment = Comment.new comment_params
    @comment.account_id = current_account.id
 
-	 respond_to do |format|
-		format.js {
+
 			if @comment.save
 				@comment = Comment.where(post_id: @comment.post_id)
-				render "comments/create"
+				redirect_back fallback_location: root_path
 			else
 				#unable to save
 			end
-		}
-	 end
 	end
 
 	def comment_params

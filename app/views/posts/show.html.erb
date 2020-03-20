@@ -1,9 +1,9 @@
 <div class="row">
 	<div class="col-1 text-center">
-		<div id="vote-actions-<%= @post_id %>" data-id="<%= post.id %>" class="vote">
-			<div class="fa fa-arrow-up upvote <%= is_upvoted @post %>"></div>
-			<span class="font-weight-bold score"><%= @post.score %></span>
-			<div class="fa fa-arrow-down downvote<%= is_downvoted @post %>"></div>
+		<div id="vote-actions-<%= @post_id %>" data-id="<%= @posts.id %>" class="vote">
+			<div class="fa fa-arrow-up upvote <%= is_upvoted @posts %>"></div>
+			<span class="font-weight-bold score"><%= @posts.score %></span>
+			<div class="fa fa-arrow-down downvote<%= is_downvoted @posts %>"></div>
 		</div>
 	</div>
 <div class="col-11">

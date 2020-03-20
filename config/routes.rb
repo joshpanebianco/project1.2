@@ -12,4 +12,8 @@ Rails.application.routes.draw do
 
   post "post/vote" => "votes#create"
 
+  # devise_scope :accounts do
+  #   get "/accounts/sign_out" => "sessions#destroy"
+  # end
+
 end
