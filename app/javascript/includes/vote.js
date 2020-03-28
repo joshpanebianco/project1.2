@@ -11,6 +11,7 @@ $(function(){
 			url: "/post/vote",
 			method: "POST",
 			data: { post_id: post_id, upvote: is_upvote },
+      dataType: "script",
 			success: function(){
 				console.log("success..");
 			}

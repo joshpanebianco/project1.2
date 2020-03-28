@@ -20,3 +20,12 @@
 .form-group {
 	width: 60%;
 }
+
+.more-button {
+	background-color: #9b59b6;
+	border-color: #9b59b6;
+}
+
+.delete-button {
+	float: right;
+}

@@ -2,7 +2,7 @@
   <div class="card p-3 mb-3">
     <div class="row">
       <div class="col-1 text-center">
-        <div id="vote-actions" data-id="<%= post.id %>" class="vote">
+        <div id="vote-actions-<%= post.id %>" data-id="<%= post.id %>" class="vote">
           <div class="fa fa-arrow-up upvote <%= is_upvoted post %>"></div>
           <span class="font-weight-bold score"><%= post.score %></span>
           <div class="fa fa-arrow-down downvote<%= is_downvoted post %>"></div>

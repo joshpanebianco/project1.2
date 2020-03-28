@@ -1,9 +1,9 @@
 // console.log("The vote has been saved")
 
 // Update the total votes on the posts
-$("#vote-action<%= @post.id %> .score").text("<%= @post.score %>");
+$("#vote-actions-<%= @post.id %> .score").text("<%= @post.score %>");
 
-$("#vote-action<%= @post.id %> .downvote, #vote-action<%= @post.id %> .upvote").removeClass("active");
+$("#vote-actions-<%= @post.id %> .downvote, #vote-action<%= @post.id %> .upvote").removeClass("active");
 
 <% if @new_vote %>
 	<% if @is_upvote === "true" %>
