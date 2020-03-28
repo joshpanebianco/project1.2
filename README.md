@@ -23,3 +23,7 @@ Things you may want to cover:
 
 * ...
 # project1.2
+
+Project 1.2
+
+Hello Code, an online community for people learning to code. This project is built in rails version 5 and front end is using bootstrap 4. 
