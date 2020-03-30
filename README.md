@@ -1,29 +1,13 @@
-# README
+Project 1: SEI-36
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hello Code, an online community for people learning to code. This project is built with rails version 5 and the front end is using bootstrap 4. 
 
-Things you may want to cover:
+Some of the interesting features for this project are:
 
-* Ruby version
+- Users can create custom communities with rules and posting guidelines.- Each user can upvote or downvote a post, with the upvote amount shown in real-time.- Users can add videos with iframes that display on the page.
 
-* System dependencies
+- There are restrictions for accounts that create posts and those that only make comments.
 
-* Configuration
+This project helped me learn the differences between rails 5 and rails 6 and the reasons why some developers have a preference for either version.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# project1.2
-
-Project 1.2
-
-Hello Code, an online community for people learning to code. This project is built in rails version 5 and front end is using bootstrap 4. 
+Thank you to Alek and Joel for all of your help getting bugs fixed during the first project week. 
